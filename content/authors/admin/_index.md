@@ -1,17 +1,17 @@
 ---
 # Display name
-title: 吳健雄
+title: Sean Chiang
 
 # Name pronunciation (optional)
-name_pronunciation: Chien Shiung Wu
+name_pronunciation: 
 
 # Full name (for SEO)
-first_name: Shiung Wu
-last_name: Chien
+first_name: Sean
+last_name: Chiang
 
 # Status emoji
 status:
-  icon: ☕️
+  icon: 📊
 
 # Is this the primary user of the site?
 superuser: true
@@ -20,134 +20,153 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Chief Scientist
+role: Quantitative Finance Student
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: OpenAI
-    url: https://openai.com/
+  - name: City University of Hong Kong
+    url: https://www.cityu.edu.hk/
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: 'mailto:your-email@example.com'
+    url: 'mailto:sean.chiang@example.com'
     label: E-mail Me
-  - icon: brands/x
-    url: https://twitter.com/GetResearchDev
-  - icon: brands/instagram
-    url: https://www.instagram.com/
   - icon: brands/github
-    url: https://github.com/gcushen
+    url: https://github.com/seanchiang
   - icon: brands/linkedin
-    url: https://www.linkedin.com/
-  - icon: academicons/google-scholar
-    url: https://scholar.google.com/
-  - icon: academicons/orcid
-    url: https://orcid.org/
+    url: https://linkedin.com/in/seanchiang
 
 interests:
-  - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
+  - Quantitative Finance
+  - Machine Learning
+  - Rock Climbing
+  - Violin Performance
+  - Volunteer Work
+  - Technology Innovation
 
 education:
-  - area: PhD Artificial Intelligence
-    institution: Stanford University
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+  - area: MSc in Computational Finance
+    institution: City University of Hong Kong
+    date_start: 2023-09-01
+    date_end: ''
     summary: |
-      Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
-    button:
-      text: 'Read Thesis'
-      url: 'https://example.com'
-  - area: MEng Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      GPA: 3.8/4.0
-
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - area: BSc Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      GPA: 3.4/4.0
+      Specializing in quantitative analysis, financial modeling, and machine learning applications in finance.
       
       Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      - Financial Derivatives and Risk Management
+      - Machine Learning in Finance
+      - Algorithmic Trading
+      - Portfolio Theory and Asset Pricing
+  - area: BBA in Finance
+    institution: City University of Hong Kong
+    date_start: 2019-09-01
+    date_end: 2023-06-30
+    summary: |
+      GPA: 3.8/4.0
+      
+      Activities and achievements:
+      - Global 1st Runner-up in Point 72 x Fidelity Competition
+      - Top 10.08% in International Quant Championship
+      - Ex-SFC Type 1 Licensed Professional
 work:
-  - position: Director of Cloud Infrastructure
-    company_name: GenCoin
+  - position: Quantitative Analyst - Intern
+    company_name: Oakcean Capital Limited
     company_url: ''
     company_logo: ''
-    date_start: 2021-01-01
-    date_end: ''
-    summary: |2-
-      Responsibilities include:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - position: Backend Software Engineer
-    company_name: X
-    company_url: ''
-    company_logo: ''
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+    date_start: 2024-07-01
+    date_end: 2024-09-01
     summary: |
       Responsibilities include:
-      - Migrated infrastructure to a new data center
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      - Conducted detailed quantitative analysis on over 10 U.S. and European interest rate products
+      - Developed algorithmic trading logic to optimize trading strategies and execution
+      - Implemented and operated time series database solutions using MongoDB and Timescale DB
+      - Analyzed market data to identify trading opportunities and optimize performance
+  - position: Research Assistant
+    company_name: City University of Hong Kong
+    company_url: 'https://www.cityu.edu.hk/'
+    company_logo: ''
+    date_start: 2023-10-01
+    date_end: ''
+    summary: |
+      Responsibilities include:
+      - Developing machine learning models for financial market prediction
+      - Analyzing large-scale financial datasets
+      - Supporting faculty research in quantitative finance
+  - position: Securities Dealer Representative
+    company_name: OnePlatform Securities
+    company_url: ''
+    company_logo: ''
+    date_start: 2022-06-01
+    date_end: 2023-09-30
+    summary: |
+      Responsibilities include:
+      - Obtained SFC Type 1 Licensed Professional status
+      - Executed trading operations for institutional clients
+      - Conducted market research and analysis
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
 skills:
-  - name: Technical Skills
+  - name: Programming Languages
     items:
       - name: Python
         description: ''
+        percent: 90
+        icon: code-bracket
+      - name: R
+        description: ''
         percent: 80
         icon: code-bracket
-      - name: Data Science
-        description: ''
-        percent: 100
-        icon: chart-bar
       - name: SQL
         description: ''
-        percent: 40
-        icon: circle-stack
-  - name: Hobbies
-    color: '#eeac02'
-    color_border: '#f0bf23'
+        percent: 85
+        icon: database
+      - name: JavaScript
+        description: ''
+        percent: 70
+        icon: code-bracket
+  - name: Financial Technologies
+    color: '#0076df'
+    color_border: '#0076df'
     items:
-      - name: Hiking
+      - name: Bloomberg Terminal
         description: ''
-        percent: 60
-        icon: person-simple-walk
-      - name: Cats
+        percent: 90
+        icon: chart-bar
+      - name: FactSet
         description: ''
-        percent: 100
-        icon: cat
-      - name: Photography
+        percent: 85
+        icon: chart-bar
+      - name: Alpha Vantage
         description: ''
-        percent: 80
-        icon: camera
+        percent: 85
+        icon: api
+  - name: Machine Learning
+    color: '#00a6ed'
+    color_border: '#00a6ed'
+    items:
+      - name: Scikit-learn
+        description: ''
+        percent: 85
+        icon: brain
+      - name: TensorFlow
+        description: ''
+        percent: 75
+        icon: brain
+      - name: Pandas/NumPy
+        description: ''
+        percent: 95
+        icon: table
 
 languages:
   - name: English
-    percent: 100
+    percent: 95
   - name: Chinese
-    percent: 75
-  - name: Portuguese
-    percent: 25
+    percent: 100
+  - name: Cantonese
+    percent: 90
 
 # Awards.
 #   Add/remove as many awards below as you like.
@@ -183,4 +202,8 @@ awards:
 
 ## About Me
 
-Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+Passionate about applying machine learning and data science to discover investment opportunities and develop risk management strategies. Currently studying Computational Finance at City University of Hong Kong.
+
+My achievements include being the Global 1st Runner-up in the Point 72 x Fidelity Competition, reaching the Top 10.08% in the International Quant Championship, and working as an Ex-SFC Type 1 Licensed Professional.
+
+I combine strong technical skills in quantitative analysis with practical experience in financial markets to develop innovative solutions in algorithmic trading and risk management.

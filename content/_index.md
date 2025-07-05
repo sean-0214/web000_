@@ -32,14 +32,20 @@ sections:
           parallax: false
   - block: markdown
     content:
-      title: '📚 My Research'
-      subtitle: ''
+      title: '📊 Research Focus'
+      subtitle: 'Quantitative Finance & Machine Learning'
       text: |-
-        Use this area to speak to your mission. I'm a research scientist in the Moonshot team at DeepMind. I blog about machine learning, deep learning, and moonshots.
-
-        I apply a range of qualitative and quantitative methods to comprehensively investigate the role of science and technology in the economy.
+        I focus on applying machine learning and data science techniques to discover investment opportunities and develop risk management strategies in the field of quantitative finance.
         
-        Please reach out to collaborate 😃
+        My research interests include:
+        - Algorithmic trading strategy development
+        - Quantitative risk modeling and portfolio optimization
+        - Application of machine learning to financial time series
+        - Derivatives pricing and structured product analysis
+        
+        As evidenced by my participation in competitions like the International Quant Championship and Point 72 x Fidelity Competition, I'm dedicated to pushing the boundaries of quantitative analysis.
+        
+        Please reach out if you'd like to collaborate!
     design:
       columns: '1'
   - block: collection
@@ -51,7 +57,7 @@ sections:
           - publication
         featured_only: true
     design:
-      view: article-grid
+      view: card
       columns: 2
   - block: collection
     content:
@@ -62,7 +68,7 @@ sections:
           - publication
         exclude_featured: false
     design:
-      view: citation
+      view: list
   - block: collection
     id: talks
     content:
@@ -71,20 +77,23 @@ sections:
         folders:
           - event
     design:
-      view: article-grid
+      view: card
       columns: 1
   - block: collection
     id: news
     content:
-      title: Recent News
+      title: Recent Projects
       subtitle: ''
       text: ''
       # Page type to display. E.g. post, talk, publication...
-      page_type: post
+      folders:
+        - project
       # Choose how many pages you would like to display (0 = all pages)
       count: 5
       # Filter on criteria
       filters:
+        folders:
+          - project
         author: ""
         category: ""
         tag: ""
@@ -98,7 +107,7 @@ sections:
       order: desc
     design:
       # Choose a layout view
-      view: date-title-summary
+      view: list
       # Reduce spacing
       spacing:
         padding: [0, 0, 0, 0]

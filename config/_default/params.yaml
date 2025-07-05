@@ -6,7 +6,9 @@
 # Appearance
 appearance:
   mode: system
-  color: emerald
+  font: minimal
+  font_size: L
+  color: blue
 
 # SEO
 marketing:
@@ -14,7 +16,7 @@ marketing:
     site_type: Person
     local_business_type: ''
     org_name: ''
-    description: 'The highly-customizable Hugo Academic theme powered by Hugo Blox Builder. Easily create your personal academic website.'
+    description: 'Sean Chiang - Quantitative Finance and Machine Learning specialist focusing on algorithmic trading, risk management, and data science applications in finance.'
     twitter: 'GetResearchDev'
   analytics:
     google_analytics: ''
@@ -35,7 +37,7 @@ header:
     show_search: true
     show_theme_chooser: true
     logo:
-      text: "Your Name"
+      text: "Sean Chiang"
 
 # Site footer
 footer:
