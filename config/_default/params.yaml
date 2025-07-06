@@ -16,7 +16,7 @@ marketing:
     site_type: Person
     local_business_type: ''
     org_name: ''
-    description: 'Sean Chiang - Quantitative Finance and Machine Learning specialist focusing on algorithmic trading, risk management, and data science applications in finance.'
+    description: 'Sean Chiang - Quantitative Finance and Machine Learning specialist in asset pricing, risk management, and data science applications in finance.'
     twitter: 'GetResearchDev'
   analytics:
     google_analytics: ''
@@ -42,6 +42,7 @@ header:
 # Site footer
 footer:
   copyright:
+        notice: ''
         license:
       enable: true
       allow_derivatives: false
