@@ -72,7 +72,7 @@ sections:
   - block: collection
     id: talks
     content:
-      title: Recent & Upcoming Talks
+      title: Conference Engagements/ Presentations
       filters:
         folders:
           - event
@@ -80,20 +80,20 @@ sections:
       view: card
       columns: 1
   - block: collection
-    id: news
+    id: beyond-work
     content:
-      title: Recent Projects
+      title: Beyond Work
       subtitle: ''
       text: ''
       # Page type to display. E.g. post, talk, publication...
       folders:
-        - project
+        - beyond-work
       # Choose how many pages you would like to display (0 = all pages)
       count: 5
       # Filter on criteria
       filters:
         folders:
-          - project
+          - beyond-work
         author: ""
         category: ""
         tag: ""

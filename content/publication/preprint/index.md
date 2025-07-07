@@ -28,23 +28,33 @@ tags:
 featured: true
 
 links:
-- name: Custom Link
+- name: Research Paper
   url: http://example.org
-url_pdf: http://arxiv.org/pdf/1512.04133v1
-url_code: 'https://github.com/HugoBlox/hugo-blox-builder'
-url_dataset: '#'
-url_poster: '#'
-url_project: ''
-url_slides: ''
-url_source: '#'
-url_video: '#'
+- name: Documentation
+  url: http://research-documentation-link.com
+- name: Presentation
+  url: http://presentation-link.com
+  
+# RESOURCE LINKS - Replace '#' with actual URLs or keep as '#' if not applicable
+url_pdf: http://arxiv.org/pdf/1512.04133v1  # LINK TO PDF VERSION
+url_code: 'https://github.com/sean-0214/research-code'  # LINK TO CODE REPOSITORY
+url_dataset: 'https://www.kaggle.com/datasets/yourdataset'  # LINK TO DATASET
+url_poster: '#'  # LINK TO RESEARCH POSTER
+url_project: '#'  # LINK TO PROJECT WEBSITE
+url_slides: '#'  # LINK TO PRESENTATION SLIDES
+url_source: '#'  # LINK TO SOURCE DOCUMENT
+url_video: 'https://www.youtube.com/watch?v=example'  # LINK TO VIDEO PRESENTATION
 
 # Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder. 
+# To use, add an image named `featured.jpg/png` to your page's folder.
+# This image will appear in both the paper list and the paper detail page.
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/s9CC2SKySJM)'
-  focal_point: ""
-  preview_only: false
+  caption: 'Research visual representation'  # Customize this caption
+  focal_point: "Center"  # Options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
+  preview_only: false  # Show only the image for previews?
+  
+# IMPORTANT: Place your publication image in this directory and name it 'featured.jpg' or 'featured.png'
+# Path: content/publication/preprint/featured.jpg
 
 # Associated Projects (optional).
 #   Associate this publication with one or more of your projects.

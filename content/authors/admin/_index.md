@@ -31,12 +31,12 @@ organizations:
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: 'mailto:sean.chiang@example.com'
+    url: 'mailto:sean021453@gmail.com'
     label: E-mail Me
   - icon: brands/github
-    url: https://github.com/seanchiang
+    url: https://github.com/sean-0214/
   - icon: brands/linkedin
-    url: https://linkedin.com/in/seanchiang
+    url: https://www.linkedin.com/in/seanchianghk/
 
 interests:
   - Quantitative Finance
@@ -83,28 +83,84 @@ work:
       - Developed algorithmic trading logic to optimize trading strategies and execution
       - Implemented and operated time series database solutions using MongoDB and Timescale DB
       - Analyzed market data to identify trading opportunities and optimize performance
-  - position: Research Assistant
+  
+  - position: Data Analytics Intern
+    company_name: AXA General Insurance Hong Kong Limited
+    company_url: ''
+    company_logo: ''
+    date_start: 2024-06-01
+    date_end: 2024-12-31
+    summary: |
+      Responsibilities include:
+      - Conducted API system integration for ETL pipelines, enhancing data processing efficiency
+      - Implemented feature engineering and modeling techniques for gold lead identification and conversion
+      - Led and 100% delivered 2 legacy code conversion projects: National ID library and BI Dashboard local DAX to cloud Python infrastructure
+      - Successfully replicated the R library "IDCard" with improved functionality
+      - Streamlined data workflows between legacy systems and modern cloud infrastructure
+  
+  - position: Research Assistant - Statistics
     company_name: City University of Hong Kong
     company_url: 'https://www.cityu.edu.hk/'
     company_logo: ''
-    date_start: 2023-10-01
-    date_end: ''
+    date_start: 2023-09-01
+    date_end: '2025-04-01'
     summary: |
       Responsibilities include:
       - Developing machine learning models for financial market prediction
       - Analyzing large-scale financial datasets
       - Supporting faculty research in quantitative finance
-  - position: Securities Dealer Representative
-    company_name: OnePlatform Securities
+  
+  - position: Commercial Banking Intern
+    company_name: Hang Seng Bank Limited
     company_url: ''
     company_logo: ''
-    date_start: 2022-06-01
-    date_end: 2023-09-30
+    date_start: 2023-08-01
+    date_end: 2023-12-01
+    summary: |
+      Responsibilities include:
+      - Assisted relationship managers in monitoring commercial client portfolios
+      - Conducted financial analysis and due diligence on corporate clients
+      - Prepared client presentations and financial reports
+      - Supported trade financing operations and documentation
+  
+  - position: Data Engineer Intern
+    company_name: AltQuest Limited at WBY Lawyers
+    company_url: ''
+    company_logo: ''
+    date_start: 2023-06-01
+    date_end: 2023-08-01
+    summary: |
+      Responsibilities include:
+      - Designed and implemented data pipelines for legal document processing
+      - Created data extraction tools for automated contract analysis
+      - Collaborated with legal professionals to enhance document management systems
+      - Applied natural language processing techniques to legal documents
+  
+  - position: Securities-dealer
+    company_name: Oneplatform Asset Management Limited
+    company_url: ''
+    company_logo: ''
+    date_start: 2022-09-01
+    date_end: 2023-09-01
     summary: |
       Responsibilities include:
       - Obtained SFC Type 1 Licensed Professional status
       - Executed trading operations for institutional clients
       - Conducted market research and analysis
+      - Managed client relationships and provided financial advisory services
+  
+  - position: Foreign Commercial Service Intern
+    company_name: U.S. Consulate General Hong Kong and Macau - U.S. Department of Commerce
+    company_url: ''
+    company_logo: ''
+    date_start: 2022-01-01
+    date_end: 2022-07-01
+    summary: |
+      Responsibilities include:
+      - Completed comprehensive market intelligence research on Fintech and Green Finance sectors in Hong Kong
+      - Published three research papers through the International Trade Administration
+      - Provided valuable market insights to support U.S. businesses exploring opportunities in the Hong Kong market
+      - Analyzed market trends, regulatory environments, and business opportunities in key sectors
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`

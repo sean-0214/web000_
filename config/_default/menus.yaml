@@ -10,11 +10,11 @@ main:
   - name: Papers
     url: /#papers
     weight: 11
-  - name: Talks
+  - name: Engagements
     url: /#talks
     weight: 12
-  - name: News
-    url: /#news
+  - name: About
+    url: /#beyond-work
     weight: 13
   - name: Experience
     url: experience/
@@ -22,6 +22,6 @@ main:
   - name: Projects
     url: projects/
     weight: 30
-  - name: Teaching
+  - name: Notes
     url: teaching/
     weight: 40
