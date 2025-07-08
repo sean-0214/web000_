@@ -14,6 +14,17 @@ image:
   preview_only: false
   alt_text: Sean during rock climbing activities
 
+gallery_item:
+- album: sports
+  image: gallery/climbing_gym.jpg
+  caption: Indoor Climbing Training
+- album: sports
+  image: gallery/mountain_hiking.jpg
+  caption: Mountain Hiking Adventure
+- album: sports
+  image: gallery/strength_competition.jpg
+  caption: Strength Competition
+
 links:
   - icon: link
     icon_pack: fas
