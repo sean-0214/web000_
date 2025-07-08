@@ -1,0 +1,29 @@
+{{/* List view template for Hugo Blox */}}
+<div class="list-view">
+  {{ with .page }}
+    <div class="section-heading pb-3 mb-5">
+      <h1>{{ .Title }}</h1>
+      {{ with .Params.subtitle }}<p class="subtitle">{{ . }}</p>{{ end }}
+    </div>
+    {{ with .Content }}<div class="article-style">{{ . }}</div>{{ end }}
+  {{ end }}
+  
+  <div class="row">
+    {{ range .page.Pages }}
+      <div class="col-md-12 mb-4">
+        <div class="media">
+          {{ with .Params.image }}
+            {{ if .filename }}
+              <img src="{{ .filename | relURL }}" class="mr-3" style="max-width:25%" alt="{{ .alt_text | default "Featured Image" }}">
+            {{ end }}
+          {{ end }}
+          <div class="media-body">
+            <h5 class="mt-0"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h5>
+            <p>{{ .Params.summary }}</p>
+            <a href="{{ .RelPermalink }}" class="btn btn-sm btn-outline-primary">Read More</a>
+          </div>
+        </div>
+      </div>
+    {{ end }}
+  </div>
+</div>
